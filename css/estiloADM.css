@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#login{
+	position:absolute;
+	top:30%;
+	left:30%;
+	height:40%;
+	width:40%;
+	background:#FFF;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#escrita{
+	position:relative;
+	top:100px;
+	left:100px;
+}
+#error{
+	position:absolute;
+	top:65px;
+	left:210px;
+	color:#FF0000;
+}
+#form{
+	position:absolute;
+	top:100px;
+	left:190px;
+	font-size:10px;
+	
+}
+input{	
+	fonf-weight:bold;
+	font-size:13pt;
+	height:30px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#FFFFFF;
+	color:#000000;
+	-khtml-opacity:.7;
+	-moz-opacity:.7;
+}
+
+#form option{
+	fonf-weight:bold;
+	font-size:13pt;
+	height:30px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#FFFFFF;
+	color:#000000;
+	-khtml-opacity:.7;
+	-moz-opacity:.7;
+}
+/*ADMINISTRAÇÃO*/
+
+/*inicio inserir*/
+#formulario{
+	position:absolute;
+	top:20px;
+	left:350px;
+	height:auto;
+	width:650px;
+	border:dotted 0px;
+}
+
+#mensagem{
+	position:absolute;
+	top:0px;
+	left:100px;
+}
+
+#formulario table{
+	position:absolute;
+	left:350px;
+	top:300px;
+	border-collapse:separate;
+	border-spacing:30px 10px;
+	text-align:right;
+}
+
+#progresso {
+  background:#CFC url(textarea.png) no-repeat;
+  background-position: -300px 0px;
+  width: 300px;
+  height: 14px;
+  text-align: center;
+  color::#000000;
+  font-size: 8pt;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+/*fim inserir*/
+
+/*inicio listar*/
+#lista{
+	position:absolute;
+	left:350px;
+	top:20px;	
+	height:auto;
+	width:650px;
+	border:dotted 0px;
+}
+
+#lista table{
+	position:absolute;
+	top:110px;	
+	left:0px;
+	/*border-collapse:separate;*/
+	border-spacing:1px 1px;
+	text-align:right;
+	border:dotted 0px;
+	text-align:center;
+}
+#lista table tr{
+	background:#CCC;
+}
+
+#lista table :hover{
+	background:#0C6;
+}
+.branco{
+	background:#FFF;
+}
+#nomeCategoria{						/* SERVE TBM COMO NOME DO PRODUTO*/
+	position:absolute;
+	top:40px;
+	left:80px;
+	height:40px;
+	width:200px;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	font: bolder 1.0em 'Trebuchet MS', sans-serif;
+	opacity:.7;
+	-khtml-opacity:.7;
+	-moz-opacity:.7;
+	-moz-box-shadow: 5px 10px 5px #333; 
+	-webkit-box-shadow: 5px 10px 5px #333;
+	box-shadow: 5px 10px 5px #333;
+	
+	-webkit-border-top-left-radius:10px;
+	-moz-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:40px;
+	-moz-border-bottom-left-radius:40px;
+	-moz-border-radius-bottomleft:40px;
+	border-bottom-left-radius:40px;
+	
+	-webkit-border-top-right-radius:10px;
+	-moz-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:40px;
+	-moz-border-bottom-right-radius:40px;
+	-moz-border-radius-bottomright:40px;
+	border-bottom-right-radius:40px;
+	border:dotted 0px;
+}
+/*fim listar*/
+
+/* INICIO FOTOS */
+#gallery{
+	position:absolute;
+	left:350px;
+	top:20px;	
+	height:auto;
+	width:150px;
+	border:dotted 0px;
+}
+
+#area{
+	position:absolute;
+	left:500px;
+	top:20px;	
+	height:500px;
+	width:550px;
+	border:dotted 0px;
+	text-align:center;
+}
+
+
+/* FIM FOTOS */
+
+#estatisticas{
+	position:absolute;
+	top:280px;
+	left:20px;
+	height:320px;
+	width:300px;
+	border:dotted 0px;
+}

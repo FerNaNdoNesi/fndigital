@@ -1,0 +1,90 @@
+body {
+	margin: 0; 	padding: 0;
+	font: normal 73%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #555;
+	background: #FFF url(../img/bg.jpg) repeat-x;
+	text-align: center;		
+}
+
+/* header INICIO*/
+#header-content, #content, #footer-content {
+	width: 760px;
+}
+#header {
+	height: 100px;
+	text-align: left;	
+}
+#header-content {	
+	margin: 0 auto; padding: 0;
+	position: relative;
+}
+#header-content h1#logo {
+	position: absolute;	
+	font: bold 45px 'Trebuchet MS', Sans-serif;
+	letter-spacing: -2px; 
+	color: #FFF;
+	margin: 0; padding: 0;		
+	/* change the values of left and top to adjust the position of the logo */
+	top: 0; left: 0px;
+}
+#header-content h1#logo a {
+	text-decoration: none;
+	color: #FFF;
+}
+#header-content #slogan {
+	position: absolute;	
+	font: bold 12px 'Trebuchet Ms', Sans-serif;
+	text-transform: none;
+	color: #FFF;	
+	margin: 0; padding: 0;
+	/* change the values of left and top to adjust the position of the slogan */
+	top: 55px; left: 40px;
+}
+/* header FIM*/
+/* header menu INICIO*/
+#header-content ul {
+	position: absolute;
+	right: -5px; top: 15px;
+	font: bolder 1.3em 'Trebuchet MS', sans-serif;
+	color: #FFF;
+	list-style: none;
+	margin: 0; padding: 0;		
+}
+#header-content li {
+	display: inline;
+}
+#header-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFF;
+	background-color: #333;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#header-content li a:hover {
+	background: #65944A;
+	color: #FFF;
+}
+#header-content li a#current  {
+	background: #65944A;
+	color: #FFF;
+}
+.orange{
+	color:#F93;
+}
+/* header menu FIM */
+
+/* banner */
+.banner {
+	margin: 0 auto;
+	width: 890px;
+	height: 500px;
+	padding: 10px 10px 10px 10px; 
+	background: #FFF; /*url(../img/headerphoto.jpg) no-repeat center;	*/
+	/*background: #FFF url(../img/classificados.png) no-repeat center;*/
+}
+
+
+
+

@@ -1,0 +1,369 @@
+@charset "UTF-8";
+
+body{
+	background:#000 url(../img/fundoAzul.png);
+}
+
+#mensagem{
+	position:absolute;
+	top:-35px;
+	right:5px;
+	font-family:"Lucida Console", Monaco, monospace;
+	z-index:2;
+}
+
+#outdoor{
+	position:absolute;
+	background:url(../img/designCinza.png) no-repeat;
+	top:10px;
+	left:0px;
+	height:400px;
+	width:950px;
+}
+
+#logo{
+	position:absolute;
+	top:-40px;
+	left:0px;
+	height:300px;
+	width:950px;
+	z-index:1;
+}
+
+#menuSuperior{
+	position:absolute;
+	left:50px;
+	bottom:70px;
+	z-index:2;
+}
+#principal #menuSuperior table tr td a{
+	text-decoration:none;
+}
+
+#principal #menuSuperior table tr td a:hover{
+	text-shadow:1px 0px 1px #000; /*Sombreamento letras*/
+}
+
+#slideshow{
+	position:absolute;
+	top:20px;
+	left:320px;
+	z-index:1;
+}
+
+#principal{
+	position:absolute;
+	top:50px;
+	left:160px;
+	background:#FFF;
+	height:2500px;
+	width:950px;
+	border-bottom-right-radius:15px;
+	-moz-border-bottom-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-bottom-left-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	/*top*/
+	border-top-right-radius:15px;
+	-moz-border-top-right-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	-moz-border-top-left-radius:15px;
+	-webkit-border-top-left-radius:15px;
+}
+
+#rodape{
+	position:absolute;
+	left:350px;
+	bottom:10px;	
+}
+#rodape a{
+	position:absolute;
+	top: 0px;
+	right:-400px;	
+}
+#produtos{
+	position:absolute;
+	top:360px;
+	left:160px;
+}
+
+#principal #produtos table tr td a{
+	text-decoration:none;
+}
+
+#principal #produtos table tr td a:hover{
+	text-shadow:1px 0px 1px #000; /*Sombreamento letras*/
+}
+/* textos price*/
+#principal #produtos table tr td center a titulo{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+	color:#093;
+}
+#principal #produtos table tr td center a descricao{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:10px;
+	color:#000;
+}
+#principal #produtos table tr td center a preco{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:18px;
+	color:#093;
+}
+#principal #produtos table tr td center a cc{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:11px;
+	color:#906;
+}
+
+/* INICIO DO MENU LATERAL*/
+
+#principal #menuLateral{
+	position:absolute;
+	top:300px;
+	left:0px;
+	border:0px solid #000;
+	height:auto;
+	width:auto;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));*/
+}
+
+#principal #menuLateral .navbox {
+	position: relative;
+	float: left;
+}
+
+#principal #menuLateral ul.nav {
+	list-style: none;
+	display: block;
+	width: 200px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	padding: 60px 0 60px 0;
+	background: url(../img/shad2.png) no-repeat; /* aki vai imagem de onde sai o bagulho*/
+	-webkit-background-size: 50% 100%;
+}
+
+#principal #menuLateral li {
+	margin: 5px 0 0 0;
+}
+
+#principal #menuLateral ul.nav li a {
+	-webkit-transition: all 0.3s ease-out;
+	background: #cbcbcb; /*url(border.png) no-repeat;*/
+	color: #174867;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-top-right-radius: 10px;
+ 	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-top-right-radius:10px;
+	-moz-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	-webkit-box-shadow: 2px 2px 4px #888;
+}
+
+#principal #menuLateral ul.nav li a:hover {
+	background: #ebebeb url(border.png) no-repeat;
+	color: #67a5cd;
+	padding: 7px 15px 7px 30px;
+}
+
+.QS a{
+	color:#C00;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.QS :hover{
+	color:#F60;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+/* FIM DO MENU LATERAL*/
+
+/* POPUP    */
+
+#popup{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	/*margin: -75px 0 0 -150px;*/
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border: solid 1px #331;
+	background:#000;
+	display: none;
+	z-index:3;
+	opacity:.7;
+	-khtml-opacity:.7;
+	-moz-opacity:.7;
+}
+#popup2{
+	position: fixed;
+	top: 50px;
+	left: 174px;
+	/*margin: -75px 0 0 -150px;*/
+	width: 880px;
+	height: 84%;
+	padding: 20px;
+	border: solid 1px #331;
+	background:#FFF;
+	display: none;
+	z-index:4;
+ 	-webkit-border-radius: 20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+}
+#faixa{
+	position:absolute;
+	left:-.5px;
+	top:-10px;
+	width:100%;
+	height:90px;
+	background:url(../img/faixaRed.png) no-repeat;
+	z-index:5;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+#fechar{
+	position:absolute;
+	top:-20px;
+	right:20px;
+	height:30px;
+	width:30px;
+	display: none;
+	z-index:7;
+}
+
+ff{
+	position:absolute;
+	top:40px;
+	right:40px;
+	height:250px;
+	width:auto;
+	z-index:6;
+}
+tt{
+	position:absolute;
+	top:320px;
+	right:0px;
+	height:40px;
+	width:300px;
+	z-index:6;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:18px;
+	color:#900;
+	text-align:center;
+}
+dd{
+	position:absolute;
+	top:370px;
+	right:0px;
+	height:40px;
+	width:300px;
+	z-index:6;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:13px;
+	color:#000;
+	text-align:center;
+}
+pp{
+	position:absolute;
+	top:430px;
+	right:0px;
+	height:40px;
+	width:300px;
+	z-index:6;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:24px;
+	color:#F00;
+	text-align:center;
+}
+
+#formulario{
+	position:absolute;
+	top:45%;
+	left:20px;
+	background:#FFF;
+}
+
+input{	
+	fonf-weight:bold;
+	font-size:13pt;
+	height:30px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#FFFFFF;
+	color:#333;
+
+}
+
+#progresso {
+  background:#CFC url(textarea.png) no-repeat;
+  background-position: -300px 0px;
+  width: 300px;
+  height: 14px;
+  text-align: center;
+  color::#000000;
+  font-size: 8pt;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+#msg1{
+	position:absolute;
+	top:40px;
+	left:280px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:22px;
+	color:#033;
+	z-index:6;
+}
+#msg2{
+	position:absolute;
+	top:70px;
+	left:30px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12px;
+	color:#000;
+}
+#msg2 table{
+	border:double 0px #093;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background: url(../img/bgCategoria1.png) repeat-x;
+	border-collapse:separate;
+	border-spacing:20px 10px;
+}
+.tablet{
+	width:400px;
+	height:73px;
+}
+.maior{
+	width:430px;
+}
+
+.fof{
+	background:#FFF;
+	border:0px;
+}
+.link a{
+	color:#FFF;
+	text-decoration:none;
+}
+.link a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+ww{
+	color:#FFF;
+}
+	

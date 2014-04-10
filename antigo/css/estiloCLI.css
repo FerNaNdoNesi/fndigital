@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:#000 url(../img/fundoAzul.png);
+}
+
+#principal{
+	position:absolute;
+	top:5%;
+	left:1;
+	background:#FFF;
+	height:90%;
+	width:182%;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+#bebidas{
+	position:absolute;
+	top:30px;
+	left:10px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#celulares{
+	position:absolute;
+	top:30px;
+	left:220px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#diversos{
+	position:absolute;
+	top:30px;
+	left:430px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#eletronicos{
+	position:absolute;
+	top:30px;
+	left:640px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#informatica{
+	position:absolute;
+	top:30px;
+	left:850px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#roupas{
+	position:absolute;
+	top:30px;
+	left:1060px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;	
+}
+
+#veiculos{
+	position:absolute;
+	top:30px;
+	left:1270px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#roupas_femininas{
+	position:absolute;
+	top:30px;
+	left:1480px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#roupas_masculinas{
+	position:absolute;
+	top:30px;
+	left:1690px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#destaque{
+	position:absolute;
+	top:30px;
+	left:1900px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+
+#promocoes{
+	position:absolute;
+	top:30px;
+	left:2110px;
+	height:90%;
+	width:190px;
+	border: solid 2px #666;
+	overflow:auto;
+}
+#tweet{
+	position:relative;
+	left:5px;
+	top:10px;
+}
+categoria{
+	color:#606;
+	font-style:italic;
+	font-size:18px;	
+}
+produto{
+	left:5px;
+	font-size:16px;
+	color:#090;
+}
+nome{
+	font-style:oblique;
+}
+email{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#00C;
+}
+telefone{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#093;
+}
+pedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+}

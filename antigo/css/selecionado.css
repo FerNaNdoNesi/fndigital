@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:#000 url(../img/fundoAzul.png);
+}
+
+#principal{
+	position:absolute;
+	top:5%;
+	left:160px;
+	background:#FFF;
+	height:90%;
+	width:950px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+#logo{
+	position:absolute;
+	top:-40px;
+	right:-40px;
+}
+#formulario{
+	position:absolute;
+	top:190px;
+	left:330px;
+}
+
+input{	
+	fonf-weight:bold;
+	font-size:13pt;
+	height:30px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#FFFFFF;
+	color:#000000;
+	-khtml-opacity:.7;
+	-moz-opacity:.7;
+}
+
+#progresso {
+  background:#CFC url(textarea.png) no-repeat;
+  background-position: -300px 0px;
+  width: 300px;
+  height: 14px;
+  text-align: center;
+  color::#000000;
+  font-size: 8pt;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+
+
+/* produto */
+#produtos{
+	position:absolute;
+	top:160px;
+	left:60px;
+}
+
+#principal #produtos table tr td a{
+	text-decoration:none;
+}
+
+#principal #produtos table tr td a:hover{
+	text-shadow:1px 0px 1px #000; /*Sombreamento letras*/
+}
+/* textos price*/
+#principal #produtos table tr td center a titulo{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+	color:#093;
+}
+#principal #produtos table tr td center a descricao{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:10px;
+	color:#000;
+}
+#principal #produtos table tr td center a preco{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:18px;
+	color:#093;
+}
+
+#msg1{
+	position:absolute;
+	top:20px;
+	left:100px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:22px;
+	color:#093;
+}
+#msg2{
+	position:absolute;
+	top:60px;
+	left:30px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+	color:#000;
+}

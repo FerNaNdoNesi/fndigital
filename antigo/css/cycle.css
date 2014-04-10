@@ -1,0 +1,22 @@
+bplist00—_WebMainResource’	
+_WebResourceData_WebResourceMIMEType^WebResourceURL_WebResourceFrameName_WebResourceTextEncodingNameO<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">body { padding-bottom: 20px }
+#main { background: #fff; margin: 0 20px 20px 20px }
+#main h1 { padding:0; margin-top: 20px }
+#main h2 { text-align: left }
+#header { background-color: #eee; font-weight: normal; margin:0; padding:10px; font-size: small }
+
+table { margin: auto; border-collapse: separate; border-spacing: 20px }
+td { vertical-align: top; text-align:center; width: 235px }
+hr { margin-top: 20px; }
+
+pre { text-align: left; overflow: visible }
+code { background-color: #ffc }
+pre code { background-color: #eee }
+
+.pics { height: 268px; width: 630px; padding:0; margin:0; overflow: hidden; } /*TAMANHO DO CONTORNO*/
+.pics img { height: 200px; width: 590px; padding: 15px; top:0; left:100px } /*TAMANHO DA IMAGEM  border: 1px solid #ccc; background-color: #eee; (borda e fundo retirados*/
+.pics img {
+	-moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+</pre></body></html>Xtext/css_(http://malsup.com/jquery/cycle/cycle.cssPUUTF-8(:P_vî KL
+R
